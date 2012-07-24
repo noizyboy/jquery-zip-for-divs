@@ -1,4 +1,4 @@
-jquery-zip-
+jquery-zip-for-divs
 =================
 
 zip style transitions for divs (not just images)
