@@ -40,6 +40,7 @@ display: block;
 overflow: hidden;
 position: absolute;
 height: 500px;
+transform: rotateY(180deg);
 }
 
 
@@ -47,3 +48,10 @@ height: 500px;
 .blue { background: url(../img/Puppies-3-dogs-1993812-1024-768.jpg); }
 .green { background: url(../img/dog.jpg); }
 .purple { background: url(../img/border_collie_puppies_wallpaper-1024x768.jpg); }
+
+
+/* scrollable overrides */
+
+#blinds-wrapper {
+
+}
