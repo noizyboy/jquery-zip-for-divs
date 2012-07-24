@@ -1,0 +1,90 @@
+/* NAV */
+nav {
+width: 100%;
+background: #000;
+}
+nav a{
+margin-right: 20px;
+padding: 5px 10px;
+display: inline-block;
+background: #999;
+text-decoration: none;
+}
+nav a.active{
+background: #fff;
+color: #000;
+}
+
+
+/* SECTION LAYOUT AND COLOURS */
+#section-wrapper {
+width: 100%;
+overflow: hidden;
+position: absolute;
+}
+section {
+overflow: auto;
+position: relative;
+color: #fff;
+margin: 0;
+padding:0;
+}
+
+section#splash {background: red;}
+section#history {background: blue;}
+section#case-studies {background: green;}
+section#services {background: brown;}
+section#team {background: olive;}
+section#contact {background: magenta;}
+
+/* SECTION STYLES */
+section h1 {
+margin: 0.75em;
+}
+section h2 {
+margin: 0;
+}
+section p {
+margin: 1em;
+}
+
+/* CASE STUDIES */
+section#case-studies #case-study-wrapper{
+overflow: hidden;
+}
+section#case-studies ul {
+margin: 0;
+padding: 0;
+}
+section#case-studies ul li {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: inline-block;
+}
+.lt-ie8 section#case-studies ul li {
+display: inline;
+}
+section#case-studies ul li a{
+margin-right: 20px;
+padding: 5px 10px;
+display: inline-block;
+background: #999;
+text-decoration: none;
+}
+section#case-studies ul li a.active{
+background: #fff;
+color: #000;
+}
+section#case-studies article{
+float: left;
+overflow: auto;
+}
+section#case-studies h3,
+section#case-studies p{
+margin: 10px 0 5px 10px;
+}
+section#case-studies #case-study-1{ background: #003300; }
+section#case-studies #case-study-2{ background: #006600; }
+section#case-studies #case-study-3{ background: #993300; }
+section#case-studies #case-study-4{ background: #333366; }

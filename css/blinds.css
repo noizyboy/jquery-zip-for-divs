@@ -1,0 +1,49 @@
+#blinds-wrapper {
+display: block;
+position: relative;
+width: 600px;
+height: 500px;
+color: #fff;
+overflow: hidden;
+}
+
+#slices-wrapper,
+.blind {
+position: absolute;
+top: 0;
+left: 0;
+width: 600px;
+height: 500px;
+z-index: -1;
+overflow: hidden;
+}
+
+.blind h1,
+.blind h2,
+.blind p{
+padding: 10px 20px;
+}
+
+#slices-wrapper {
+z-index: 999;
+overflow: hidden;
+}
+.blind.top {
+z-index: 1;
+display: block;
+}
+.blind.next {
+z-index: 0;
+display: block;
+}
+.blind-wrapper {
+overflow: hidden;
+position: absolute;
+height: 500px;
+}
+
+
+.red { background: url(../img/cute-puppies-pic3.jpg); }
+.blue { background: url(../img/Puppies-3-dogs-1993812-1024-768.jpg); }
+.green { background: url(../img/dog.jpg); }
+.purple { background: url(../img/border_collie_puppies_wallpaper-1024x768.jpg); }
